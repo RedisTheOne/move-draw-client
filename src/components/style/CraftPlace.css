@@ -1,0 +1,66 @@
+.craft_chat {
+    width: 100vw;
+    background-color: #333333;
+    margin-top: -5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.craft_chat h2 {
+    color: white;
+}
+
+.craft_chat img {
+    width: 200px;
+}
+
+.craft_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+}
+
+.craft_images div {
+    text-align: center;
+    width: 20vw;
+    overflow: hidden;
+    height: 20vw;   
+}
+
+.craft_images div img:hover {
+    background: gray;
+}
+
+.craft_images div img {
+    width: 18vw;
+    height: 18vw;
+    padding: 10px;
+    transition: 0.5s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.craft_colors {
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.craft_colors div {
+    text-align: center;
+    width: 20vw;
+    height: 20vw; 
+    overflow: hidden;
+}
+
+.craft_colors div div {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.craft_colors div div:hover {
+    opacity: 1;
+}

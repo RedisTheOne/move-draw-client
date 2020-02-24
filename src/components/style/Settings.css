@@ -1,0 +1,30 @@
+.settings_container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.settings_chat {
+    width: 350px;
+}
+
+.settings_collection {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.settings_container h1 {
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width: 800px) {
+    .settings_container {
+        display: block;
+    }
+
+    .settings_chat {
+        width: 100vw;
+    }
+}
